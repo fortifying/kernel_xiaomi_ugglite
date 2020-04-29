@@ -100,7 +100,11 @@ else
 endif # ANDROID_BUILD_TOP
 else
 ifneq ($(ANDROID_BUILD_TOP),)
+<<<<<<< HEAD
     WLAN_BLD_DIR := $(ANDROID_BUILD_TOP)/device/qcom/msm8909w/opensource/wlan
+=======
+    WLAN_BLD_DIR := $(ANDROID_BUILD_TOP)/device/qcom/sdm429w/common/opensource/wlan
+>>>>>>> 5214e41c3b50... Merge tag 'LA.UM.8.6.r1-04300-89xx.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/prima into aosp/android-3.18
 else
     WLAN_BLD_DIR := device/qcom/msm8909w/opensource/wlan
 endif # ANDROID_BUILD_TOP
